@@ -1,0 +1,27 @@
+HELLO EVERYBODY
+WELCOME TO THIS TUTORIAL
+TODAY WE ARE GOING TO MAKE CORONA SHAPE.
+
+ THE CODE IS BELOW:
+ 
+ import turtle
+
+#any name for the variable "tr"
+tr = turtle.Turtle()
+tr.speed(0)
+#brackets are also called parenthisis
+
+tr.color("Blue")
+
+for y in range(210):
+    if y in range(50):
+        tr.hideturtle()
+    else:
+        tr.forward(10+y)
+        tr.left(y)
+
+turtle.done
+
+THANK YOU 
+PLEASE LIKE, SUBSCRIBE AND SHARE MY VIDEOS.
+CHANNEL - Yasir The Pro
