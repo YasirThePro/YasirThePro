@@ -1,0 +1,25 @@
+CODE IS BELOW: 
+
+from tkinter import *
+#press shift + 8 to get *
+from tkinter.ttk import *
+#press shift + 8 to get *
+
+from time import strftime
+
+root = Tk()
+root.title("Clock")
+
+def time():
+    string = strftime("%I:%M:%S %p")
+    #press shift + 5 to get %
+    label.config(text=string)
+    label.after(1000, time)
+
+label = Label(root, font=("ds-digital", 80), background = "black", foreground = "cyan")
+label.pack(anchor="center")
+time()
+
+mainloop()
+ ONLY THIS MUCH CODE IT IS SUPER EASY, SUPER FUN AND SUPER EFFECTIVE.
+ PLEASE SUBSCRIBE, LIKE AND SHARE.
